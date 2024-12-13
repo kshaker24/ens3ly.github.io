@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Esn3ly - Connecting Innovators with Egyptian Manufacturers" />
+  <title>Esn3ly - Connect with Egyptian Manufacturers</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #0066cc;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 4px solid #004080;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #004080;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f0f0f0;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+      background: #f4f4f4;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-container {
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #0066cc;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 5px;
+    }
+
+    .btn:hover {
+      background-color: #004080;
+    }
+
+    /* How It Works Section */
+    .how-it-works {
+      padding: 50px 20px;
+      text-align: center;
+      background: #f9f9f9;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .how-it-works h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .steps-container {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .step {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 280px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .step:hover {
+      transform: translateY(-5px);
+    }
+
+    .step h4 {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .step p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Services Section */
+    .services {
+      padding: 50px 20px;
+      text-align: center;
+      background: #fff;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .services h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .services .service-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .service-box {
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 250px;
+      height: 180px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Footer Section */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9rem;
+      border-top: 2px solid #0066cc;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .steps-container {
+        flex-direction: column;
+      }
+
+      nav {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Esn3ly</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Bridging Innovators with Egyptian Manufacturers</h2>
+    <p>
+      Esn3ly is your go-to online platform connecting individuals, entrepreneurs, and businesses looking to prototype or manufacture their products with trusted small/medium-sized Egyptian manufacturers.
+    </p>
+    <div class="btn-container">
+      <a class="btn" href="#">Start Manufacturing</a>
+      <a class="btn" href="#">Manufacture for Me</a>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps-container">
+      <div class="step">
+	      <h4>Step [ 1 ]</br>Upload Your Sketches & Details</h4>
+        <p>Share your design sketches, project details, and budget with trusted manufacturers.</p>
+      </div>
+      <div class="step">
+	      <h4>Step [ 2 ]</br>Receive Offers from Manufacturers</h4>
+        <p>Get competitive offers from verified and reliable Egyptian manufacturers tailored to your needs.</p>
+      </div>
+      <div class="step">
+	      <h4>Step [ 3 ]</br>Choose a Manufacturer & Track Progress</h4>
+        <p>Once you select your manufacturing partner, monitor your project progress seamlessly through the platform.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+      <div class="service-box">
+        <h3>Prototype Manufacturing</h3>
+        <p>Prototype your design with trusted small-scale manufacturers.</p>
+      </div>
+      <div class="service-box">
+        <h3>Small Batch Production</h3>
+        <p>Manufacture your products in low-volume batches tailored to your needs.</p>
+      </div>
+      <div class="service-box">
+        <h3>Custom Design Support</h3>
+        <p>Collaborate with experts to refine your design for efficient manufacturing.</p>
+      </div>
+      <div class="service-box">
+        <h3>On-Demand Sourcing</h3>
+        <p>Access the best manufacturing solutions for your product needs anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Esn3ly. All Rights Reserved | <a href="#" style="color: #66a3ff;">Privacy Policy</a></p>
+  </footer>
+</body>
+
+</html>
+
